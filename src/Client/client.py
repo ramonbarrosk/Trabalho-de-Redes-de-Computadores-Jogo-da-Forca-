@@ -8,7 +8,7 @@ def main():
     s.connect(('127.0.0.1', 6000))
 
     print("----------------------------")
-    print("Bem vindo ao jogo da forca!")
+    print("Bem-vindo ao jogo da forca!")
     print("----------------------------")
     print("Dois jogadores? (s/n)")
     print(">>", end='')

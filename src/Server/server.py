@@ -101,7 +101,7 @@ def clienteThread(c):
 
             while not game.completo:
                 continue
-            send(c, 'Jogo iniciado!')
+            send(c, 'Jogo iniciado! Tema: Animais')
             doisJogadoresGame(c, jogador, game)
 
     else:

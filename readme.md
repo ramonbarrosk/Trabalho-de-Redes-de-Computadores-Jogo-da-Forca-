@@ -23,6 +23,8 @@ Durante o jogo um jogador ou os dois juntos vão ter um total de 6 tentativas.
 
 Para ser possível jogar, o usuário vai ter que ter instalado em sua máquina o python na sua versão 3.6 ou superior.
 
+Além disso, sua porta 6000 deve estar disponível para poder prosseguir com o jogo, pois definimos no projeto essa porta como padrão.
+
 ---
 ## Como jogar
 
@@ -41,6 +43,8 @@ python src/Client/client.py
 ```
 
 Inicialmente vai aparecer uma pergunta se vai querer jogar com um ou dois jogadores. Caso escolha a opção de dois jogadores, é necessário abrir um novo terminal e rodar o comando acima novamente na raiz do projeto,  e responder a pergunta com SIM mais uma vez.
+
+A opção de dois jogadores é um ajudando o outro, caso você acerte ou erre vai passar a vez para o outro jogador até o fim da partida.
 
 ---
 
