@@ -4,7 +4,7 @@
 ## Dupla do projeto:
 
 - **Ramon Barros de Lima**
-- **Saulo**
+- **Saulo Roberto dos Santos**
 ----
 ## Jogo da Forca
 
