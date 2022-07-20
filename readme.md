@@ -29,7 +29,7 @@ Para ser possível jogar, o usuário vai ter que ter instalado em sua máquina o
 Primeiramente vamos ter que rodar o servidor, executando o seguinte comando dentro da raiz do projeto.
 
 ```bash
-$ python src/Server/server.py
+python src/Server/server.py
 ```
 
 Após rodar o servidor, vamos abrir um novo terminal para rodar o cliente para ser possível se conectar com o servidor e começar o jogo.
@@ -37,10 +37,10 @@ Após rodar o servidor, vamos abrir um novo terminal para rodar o cliente para s
 Execute o seguinte comando na raiz do projeto:
 
 ```bash
-$ python src/Client/client.py
+python src/Client/client.py
 ```
 
-Inicialmente vai aparecer uma pergunta se vai querer jogar com um ou dois jogadores. Caso escolha a opção de dois jogadores, é necessário abrir um novo terminal e rodar o comando acima novamente,  e responder a pergunta com SIM mais uma vez.
+Inicialmente vai aparecer uma pergunta se vai querer jogar com um ou dois jogadores. Caso escolha a opção de dois jogadores, é necessário abrir um novo terminal e rodar o comando acima novamente na raiz do projeto,  e responder a pergunta com SIM mais uma vez.
 
 ---
 

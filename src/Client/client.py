@@ -7,6 +7,9 @@ def main():
     s = socket.socket()
     s.connect(('127.0.0.1', 6000))
 
+    print("----------------------------")
+    print("Bem vindo ao jogo da forca!")
+    print("----------------------------")
     print("Dois jogadores? (s/n)")
     print(">>", end='')
     
@@ -26,7 +29,7 @@ def main():
         doisJogadoresSinal = '0'.encode('utf-8')
         s.send(doisJogadoresSinal)
 
-        print("Jogo iniciado!")
+        print("Jogo iniciado! Tema: Animais")
         jogarGame(s)
 
 def recv_helper(socket):
