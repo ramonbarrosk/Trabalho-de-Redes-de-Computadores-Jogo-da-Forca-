@@ -1,5 +1,4 @@
 import socket
-import sys
 
 def main():
     print('Cliente rodando no Host 127.0.0.1 | Porta 6000')

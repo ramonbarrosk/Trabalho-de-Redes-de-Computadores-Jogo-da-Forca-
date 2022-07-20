@@ -1,6 +1,5 @@
 import socket
 from _thread import *
-import sys
 import random
 
 numeroCliente = 0  
